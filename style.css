@@ -2,10 +2,7 @@ body {
   margin: 10px;
   text-align: center;
   color: white;
-    background:
-        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
-        url("456300971_515529327516427_2271623375209950372_n.jpg");
-
+    background: url("456300971_515529327516427_2271623375209950372_n.jpg");
     background-size:cover;
     background-position:center center;
     background-repeat:no-repeat;
