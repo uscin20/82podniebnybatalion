@@ -88,30 +88,3 @@ td {
     bottom: 0;
     width: 100%;
 }
-ul {
-  display: flex;
-    list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333333;
-}
-
-ul li {
-  color: white;
-  padding: 5px 5px;
-}
-
-ul li:hover {
-  background-color: #111111;
-}
-
-.menu {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
-}
-.menu:hover {
-background-color: #111111;
-}
