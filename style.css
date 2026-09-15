@@ -8,6 +8,14 @@ body {
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
 #glowna {
   font-size: 60px;
   font-family: cursive;
