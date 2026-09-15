@@ -1,22 +1,21 @@
 body {
   margin: 10px;
-  background-image: url("456300971_515529327516427_2271623375209950372_n.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   text-align: center;
   color: white;
+    background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+        url("456300971_515529327516427_2271623375209950372_n.jpg");
+
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
+
 li {
   font-size: 20px;
 }
-#dol {
-  font-family: darabka;
-  font-size: 12px;
-  bottom: 10;
-  left: 10;
-  color: rgb(100, 100, 100);
-}
+
 #glowna {
   font-size: 40px;
   font-family: darabka;
@@ -80,31 +79,7 @@ td {
   padding: 5px;
   color: white;
 }
-.fixed {
-  position: fixed; /* Ustala pozycję tekstu jako stałą */
-  top: 0; /* Przykleja tekst do górnej krawędzi */
-  left: 0;
-  width: 100%; /* Ustawia szerokość na całą szerokość strony */
-  color: black; /* Kolor tekstu */
-  font-size: 30px; /* Rozmiar czcionki */
-  padding: 10px 0; /* Odstępy wokół tekstu */
-  z-index: 1000; /* Zwiększa priorytet, aby tekst nie był przykryty innymi elementami */
-}
-.fix {
-  position: fixed; /* Ustala pozycję tekstu jako stałą */
-  top: 10px; /* Przykleja tekst do górnej krawędzi */
-  left: 10px;
-}
-#odl {
-  font-size: 35px;
-  font-family: darabka;
-}
-#countdown {
-  font-size: 35px;
-  font-weight: bold;
-  border: 2px solid white;
-  background-color: darkred;
-}
+
 #roundButton {
             background-color: #96D9FF;
             margin-bottom: 20px;
@@ -156,3 +131,17 @@ td {
         #flyoutMenu h2 a:hover {
             text-decoration: underline;
         }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.footer {
+    background-color: rbga(0, 0, 0, 0)
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
