@@ -136,9 +136,12 @@ td {
 
 
 .footer {
-    background-color: rbga(0, 0, 0, 0)
+    background-color: rbga(0, 0, 0, 0);
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
