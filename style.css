@@ -88,3 +88,24 @@ td {
     position: fixed;
     bottom: 0;
 }
+ul li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li:hover {
+  background-color: #111111;
+}
+.menu {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu:hover {
+background-color: #111111;
+}
