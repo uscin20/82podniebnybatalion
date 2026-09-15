@@ -1,7 +1,7 @@
 body {
-  margin: 10px;
-  text-align: center;
-  color: white;
+    margin: 10px;
+    text-align: center;
+    color: white;
     background: url("456300971_515529327516427_2271623375209950372_n.jpg");
     background-size:cover;
     background-position:center center;
@@ -25,22 +25,16 @@ li {
   width: 50%;
   height: 50%;
 }
-.button {
-  border: 2px;
-  border-style: solid;
-  border-color: white;
-  color: white;
-  border-radius: 20px;
-  background-color: #800000;
-  font-family: darabka;
-  font-weight: bold;
-  padding: 10px 27px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+.button{
+    display:inline-block;
+    padding:16px 40px;
+    border:1px solid white;
+    color:white;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    transition:0.3s;
+    background:rgba(255,255,255,0.05);
 }
 @font-face {
   font-family: darabka;
@@ -77,57 +71,7 @@ td {
   color: white;
 }
 
-#roundButton {
-            background-color: #96D9FF;
-            margin-bottom: 20px;
-            height: 50px;
-            border-radius: 50px;
-            border: 10px solid #0065A6;
-            outline: none;
-            transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
-            font-family: darabka;
-            font-size: 20px;
-        }
 
-        #roundButton:hover {
-            background-color: #96D9FF;
-            cursor: pointer;
-            border-color: #003557;
-            transform: scale(1.2, 1.2);
-        }
-
-        #roundButton:active {
-            border-color: #003557;
-            background-color: #FFF;
-        }
-
-        #flyoutMenu {
-            width: 100vw;
-            height: 100vh;
-            background-color: darkred;
-            position: fixed;
-            top: 0;
-            left: 0;
-            transform: translate3d(-100vw, 0, 0);
-            transition: transform .3s cubic-bezier(0, .52, 0, 1);
-            overflow: scroll;
-            z-index: 1000;
-            font-family: darabka;
-        }
-
-        #flyoutMenu.show {
-            transform: translate3d(0vw, 0, 0);
-        }
-
-        #flyoutMenu h2 a {
-            color: white;
-            margin-left: 15px;
-            text-decoration: none;
-        }
-
-        #flyoutMenu h2 a:hover {
-            text-decoration: underline;
-        }
 *{
     margin:0;
     padding:0;
