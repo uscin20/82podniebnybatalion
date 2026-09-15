@@ -8,18 +8,6 @@ body {
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
-
-li {
-  font-size: 20px;
-}
-
-#glowna {
-  font-size: 40px;
-  font-family: darabka;
-  font-weight: bold;
-  padding: 5px;
-  margin-left: auto;
-}
 #plakat {
   cursor: pointer;
   width: 50%;
@@ -36,14 +24,7 @@ li {
     transition:0.3s;
     background:rgba(255,255,255,0.05);
 }
-@font-face {
-  font-family: darabka;
-  src: Daraba_full.ttf;
-}
 
-.a {
-  font-family: darabka;
-}
 pre {
   font-size: 15px;
   font-weight: bold;
@@ -53,10 +34,6 @@ pre {
 }
 ol {
   text-align: left;
-}
-.b {
-  font-family: darabka;
-  color: #800000;
 }
 table {
   border: 1px solid white;
@@ -87,6 +64,7 @@ td {
     font-size: 10px;
     position: fixed;
     bottom: 0;
+    width: 100%;
 }
 ul {
   display: flex;
