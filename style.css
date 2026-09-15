@@ -8,6 +8,13 @@ body {
     background-repeat:no-repeat;
     background-attachment:fixed;
 }
+.header {
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
 .main {
     flex: 1;
     display: flex;
