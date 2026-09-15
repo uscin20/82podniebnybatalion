@@ -69,6 +69,7 @@ td {
 ul {
   display: flex;
   position: relative;
+    list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #333333;
