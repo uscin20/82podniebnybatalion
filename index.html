@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <button id="roundButton" class="fix"><strong>MENU</strong></button><br>
-    <div id="flyoutMenu">
+
+
+    <img src="wik.png"><br>
+    <p id="glowna">82 WGZ-ów Podniebny Batalion</p>
+    <hr>
     <h2><a href="index">Strona główna</a></h2>
     <h2><a href="kadra">Nasza Kadra</a></h2>
     <h2><a href="info">O Gromadzie</a></h2>
@@ -18,30 +21,7 @@
     <h2><a href="https://www.facebook.com/265daraba?locale=pl_PL">Facebook Szczepu</a></h2>
     <h2><a href="kalendarz">Kalendarz</a></h2>
     <h2><a href="kontakt">Kontakt</a></h2>
-</div>
- <script>
-        var roundButton = document.querySelector("#roundButton");
-        roundButton.addEventListener("click", showMenu, false);
 
-        var flyoutMenu = document.querySelector("#flyoutMenu");
-        flyoutMenu.addEventListener("click", hideMenu, false);
-
-        function showMenu(e) {
-            flyoutMenu.classList.add("show");
-
-            document.body.style.overflow = "hidden";
-        }
-
-        function hideMenu(e) {
-            flyoutMenu.classList.remove("show");
-            e.stopPropagation();
-
-            document.body.style.overflow = "auto";
-        }
-    </script>
-    <img src="wik.png"><br>
-    <p id="glowna">82 WGZ-ów Podniebny Batalion</p>
-    <hr>
     <br>
     <h2 class="a">
       Aktualności
