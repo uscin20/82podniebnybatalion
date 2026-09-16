@@ -78,15 +78,6 @@ td {
   padding: 5px;
   color: white;
 }
-
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-
 .footer {
     background-color: rbga(0, 0, 0, 0);
     color: white;
